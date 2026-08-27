@@ -151,8 +151,7 @@ def main() -> None:
 
     print(f"\nErrore minimo raggiunto : {min_error * 1000:.3f} mm")
     print(f"Profondità massima      : {max_depth * 1000:.1f} mm")
-    print(f"Errore a fine procedura : {final_error * 1000:.1f} mm (ago estratto)")
-
+    print(f"Errore a fine procedura : {final_error * 1000:.1f} mm "f"(ago retratto, robot a riposo)")
 
 if __name__ == "__main__":
     main()
